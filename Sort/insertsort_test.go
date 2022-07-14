@@ -6,7 +6,7 @@ import (
 )
 
 func TestInsertionSort(t *testing.T) {
-	nums := []int{2, 1, 6, 3, 4, 9, 7, 8, 5, 0}
+	nums := []int{10000, 2, 1, 6, 3, 4, 9, 7, 8, 5, 0}
 	res := InsertionSort(nums)
 	fmt.Printf("res=%v\n", res)
 }
